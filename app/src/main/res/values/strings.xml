@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">StarWars</string>
+
+    <!--FilmDetails -->
+    <string name="film_details_characters_title">Characters</string>
+    <string name="film_details_spaceships_title">Spaceships</string>
+    <string name="film_details_film_title">Film details</string>
+    <string name="film_details_film_episode_number">Film nummer: %s</string>
+    <string name="film_details_film_producer">Producer: %s</string>
+    <string name="film_details_film_director">Regiseur: %s</string>
+    <string name="film_details_film_release_date">Release datum: %s</string>
+    <string name="film_details_film_opening_crawl">Opening text</string>
+
+    <!-- CharacterDetails -->
+    <string name="character_details_name">Naam: %s</string>
+    <string name="character_details_height">Lengte: %s</string>
+    <string name="character_details_weight">Gewicht: %s</string>
+    <string name="character_details_hair_color">Haar kleur: %s</string>
+    <string name="character_details_skin_color">Huidskleur</string>
+    <string name="character_details_eye_color">Oog kleur: %s</string>
+
+    <!-- SpaceshipDetails -->
+    <string name="spaceship_details_name">Naam: %s</string>
+    <string name="spaceship_details_model">Model: %s</string>
+    <string name="spaceship_details_manufacturer">Manufacture: %s</string>
+    <string name="spaceship_details_cost">Kosten: %s</string>
+    <string name="spaceship_details_length">Lengte: %sm</string>
+    <string name="spaceship_details_speed">Snelheid: %s</string>
+    
+    <!--Errors -->
+    <string name="error_unknown">Er is een onbekende fout opgetreden</string>
+    <string name="error_title">Er is iets misgegaan.</string>
+    <string name="error_network_no_internet">Er is geen internetverbinding.</string>
+    <string name="error_network_unknown_host">Kan geen connectie maken.</string>
+    <string name="error_network_ssl">Ongeldig certificaat.</string>
+    <string name="error_network_redirect">Ongeldig netwerkverzoek.</string>
+    <string name="error_network_bad_request">Ongeldig netwerkverzoek.</string>
+    <string name="error_network_server_error">Er is een onbekende fout opgetreden</string>
+    <string name="error_network_other">Er is een onbekende fout opgetreden</string>
+    <string name="error_network_timeout">Netwerkverzoek is verlopen</string>
+    <string name="error_network_serialization">Er is een onbekende fout opgetreden</string>
+    <string name="error_network_unknown">Er is een onbekende fout opgetreden</string>
+    <string name="error_films_not_found">Er zijn geen films gevonden</string>
+    <string name="error_characters_not_found">Er zijn geen karakters gevonden </string>
+
+
+
+
+</resources>
