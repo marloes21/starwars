@@ -33,7 +33,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-        isCoreLibraryDesugaringEnabled = true
     }
     kotlinOptions {
         jvmTarget = "11"
@@ -41,7 +40,6 @@ android {
 }
 
 dependencies {
-    coreLibraryDesugaring(libs.android.coreLibraryDesugaring)
     api(libs.bundles.ktor)
 
     implementation(libs.android.material)
@@ -52,9 +50,9 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.hilt.work)
+    implementation(libs.google.hilt.android)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.bundles.androidx.room)
-    implementation(libs.google.hilt.android)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.ktor.client.core)
 

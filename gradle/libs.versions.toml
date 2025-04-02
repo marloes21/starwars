@@ -20,16 +20,10 @@ ktor = "3.1.2"
 
 
 [libraries]
-android-coreLibraryDesugaring = { module = "com.android.tools:desugar_jdk_libs", version.ref = "androidCoreLibraryDesugaring" }
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 android-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-work = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "androidXWork" }
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidxComposeBom" }
 androidx-compose-ui = { module = "androidx.compose.ui:ui" }
-androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-hilt-work = { module = "androidx.hilt:hilt-work", version.ref = "androidxHilt" }
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidxHilt" }
