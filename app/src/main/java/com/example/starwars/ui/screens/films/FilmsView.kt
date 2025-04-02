@@ -30,6 +30,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.starwars.R
 import com.example.starwars.data.film.Film
@@ -61,8 +62,7 @@ fun FilmsView(
     Scaffold(
         topBar = {
             TopAppBar(
-                //TODO replace name
-                title = { Text("Films") },
+                title = { Text(stringResource(R.string.films_title)) },
             )
         }) { innerPadding ->
         Column(

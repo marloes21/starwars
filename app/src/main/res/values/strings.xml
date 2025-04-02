@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">StarWars</string>
 
+    <!--Films-->
+    <string name="films_title">Films</string>
     <!--FilmDetails -->
     <string name="film_details_characters_title">Characters</string>
     <string name="film_details_spaceships_title">Spaceships</string>

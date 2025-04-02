@@ -54,7 +54,6 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.bundles.androidx.room)
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.ktor.client.core)
 
 
     ksp(libs.androidx.hilt.compiler)
